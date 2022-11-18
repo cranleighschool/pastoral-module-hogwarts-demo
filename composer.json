@@ -1,24 +1,24 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "fredbradley/pastoral-module-hogwarts-demo",
+    "description": "This is my package pastoral-module-hogwarts-demo",
     "keywords": [
-        ":vendor_name",
+        "fredbradley",
         "laravel",
-        ":package_slug"
+        "pastoral-module-hogwarts-demo"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/fredbradley/pastoral-module-hogwarts-demo",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Fred Bradley",
+            "email": "code@fredbradley.co.uk",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
-        "spatie/laravel-package-tools": "^1.13.0",
-        "illuminate/contracts": "^9.0"
+        "spatie/laravel-package-tools": "^1.12.0",
+        "illuminate/contracts": "^8.0|^9.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
@@ -30,18 +30,17 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^9.5",
-        "spatie/laravel-ray": "^1.26"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "FredBradley\\HogwartsDemo\\": "src",
+            "FredBradley\\HogwartsDemo\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "FredBradley\\HogwartsDemo\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "FredBradley\\HogwartsDemo\\HogwartsDemoServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "HogwartsDemo": "FredBradley\\HogwartsDemo\\Facades\\HogwartsDemo"
             }
         }
     },

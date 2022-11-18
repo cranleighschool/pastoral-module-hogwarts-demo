@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace FredBradley\HogwartsDemo\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class HogwartsDemoCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'pastoral-module-hogwarts-demo';
 
     public $description = 'My command';
 

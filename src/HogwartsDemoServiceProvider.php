@@ -2,9 +2,9 @@
 
 namespace FredBradley\HogwartsDemo;
 
+use FredBradley\HogwartsDemo\Commands\HogwartsDemoCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use FredBradley\HogwartsDemo\Commands\HogwartsDemoCommand;
 
 class HogwartsDemoServiceProvider extends PackageServiceProvider
 {

@@ -2,9 +2,9 @@
 
 namespace FredBradley\HogwartsDemo\Tests;
 
+use FredBradley\HogwartsDemo\HogwartsDemoServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use FredBradley\HogwartsDemo\HogwartsDemoServiceProvider;
 
 class TestCase extends Orchestra
 {
